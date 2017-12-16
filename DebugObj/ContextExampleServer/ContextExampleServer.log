@@ -1,0 +1,16 @@
+﻿Сборка начата 15.12.2017 22:18:42.
+     1>Проект "D:\Projects\C++\lab3demo\ContextExampleServer\ContextExampleServer.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"D:\Projects\C++\lab3demo\DebugObj\ContextExampleServer\\" /Fd"D:\Projects\C++\lab3demo\DebugObj\ContextExampleServer\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ContextExampleServer.cpp
+         ContextExampleServer.cpp
+     1>d:\projects\c++\lab3demo\contextexampleserver\contextexampleserver.cpp(7): warning C4100: hBinding: неиспользованный формальный параметр
+     1>d:\projects\c++\lab3demo\contextexampleserver\contextexampleserver.cpp(16): warning C4100: hContext: неиспользованный формальный параметр
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\C++\lab3demo\DebugExe\ContextExampleServer.exe" /INCREMENTAL /NOLOGO rpcrt4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Projects\C++\lab3demo\DebugExe\ContextExampleServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\C++\lab3demo\DebugExe\ContextExampleServer.lib" /MACHINE:X86 /SAFESEH D:\Projects\C++\lab3demo\DebugObj\ContextExampleServer\ContextExampleServer.obj
+         D:\Projects\C++\lab3demo\DebugObj\ContextExampleServer\ContextExample_s.obj
+         ContextExampleServer.vcxproj -> D:\Projects\C++\lab3demo\DebugExe\ContextExampleServer.exe
+     1>Сборка проекта "D:\Projects\C++\lab3demo\ContextExampleServer\ContextExampleServer.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:04.41

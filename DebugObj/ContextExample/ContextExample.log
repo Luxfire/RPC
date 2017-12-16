@@ -1,0 +1,13 @@
+﻿Сборка начата 15.12.2017 21:39:43.
+     1>Проект "D:\Projects\C++\lab3demo\ContextExample\ContextExample.vcxproj" в узле 2 (целевые объекты Build).
+     1>Midl:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\midl.exe /W4 /nologo /char ascii7 /env win32 /h "ContextExample.h" /notlb ContextExample.idl 
+         Processing .\ContextExample.idl
+         ContextExample.idl
+         Processing .\ContextExample.acf
+         ContextExample.acf
+     1>Сборка проекта "D:\Projects\C++\lab3demo\ContextExample\ContextExample.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:00.71

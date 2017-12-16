@@ -1,0 +1,8 @@
+// File ContextExample.acf
+[
+   // This interface will use an explicit binding handle.
+   explicit_handle
+]
+interface ContextExample // The interface is named ContextExample
+{
+}

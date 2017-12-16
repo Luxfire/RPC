@@ -1,0 +1,34 @@
+// File ContextExample.idl
+[
+   // A unique identifier that distinguishes this interface from other interfaces.
+   uuid(00000003-EAF3-4A7A-A0F2-BCE4C30DA77E),
+
+   // This is version 1.0 of this interface.
+   version(1.0)
+]
+interface ContextExample // The interface is named ContextExample
+{
+   // To fully use context handles we need to do a typedef.
+   typedef [context_handle] void* CONTEXT_HANDLE;
+
+   // Open a context on the server.
+   CONTEXT_HANDLE Open(
+      // Explicit server binding handle.
+      [in] handle_t hBinding,
+      // String to be output on the server.
+      [in, string] const char* szString
+	   );
+
+   // Output the context string on the server.
+   int Output(
+      // Context handle. The binding handle is implicitly
+      // used through the explicit context handle.
+      [in] CONTEXT_HANDLE hContext, [in] int result, [in] int result2);
+
+   // Closes a context on the server.
+   void Close(
+      // Context handle. The binding handle is implicitly
+      // used through the explicit context handle.
+      [in, out] CONTEXT_HANDLE* phContext, [in, string] const char* szString);
+
+}
